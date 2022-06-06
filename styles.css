@@ -1,6 +1,8 @@
 #title {
+    height: 110vh;
     background-color: #ff4c68;
-    padding: 3% 15% !important;
+    padding: 0% 15% !important;
+    z-index: 1;
 }
 
 #titulo {
@@ -8,8 +10,14 @@
     font-size: 3rem;
     line-height: 1.5;
     color: #fff !important;
+    position: relative;
 }
-
+#features {
+    position: relative;
+    transform: translateY(-10%);
+    background-color: white;
+    z-index: 2;
+}
 .container-fluid {
     padding: 3% 15%;
 
@@ -48,7 +56,7 @@ margin-top: auto;
 .title-img {
     margin: 10% ,20% !important;
     padding: 5% ;
-    width: 80%;
+    width: 70%;
     transform: rotate(25deg);
 }
 
@@ -86,13 +94,28 @@ h2 {
     font-size: 3rem;
     line-height: 1.5;
 }
-
+.card{
+    border-radius: 20px;
+    border: 2px solid #ef8172 !important;
+    box-shadow: 2px 0px 10px #ef8172;;
+    text-align: center;
+    margin-bottom: 3%;
+}
+#pricing {
+    
+    text-align: center;
+    margin-bottom: 3%;
+}
+.card-header{
+    background-color: #ef8172 !important;
+}
 .testimonials-img {
     margin-top: 5%;
     border-radius: 100%;
     width: 20%;
 }
 .imagen-perro { 
+    width: 250px;
     height: 230px;
     border-radius: 80%;
 
@@ -116,4 +139,40 @@ h2 {
 .press-logo {
     width: 20%;
     margin: 20px;
+}
+
+#cta {
+    background: linear-gradient(to bottom,#fa9688 20%,#dd4933 80%);
+    text-align: center;
+}
+#pricing-head {
+    margin: 5%;
+    padding: 5%;
+    
+}
+#cta-header{
+    padding: 5%;
+}
+.titulo-pricing {
+    font-size: 40px;
+    padding: 5%;
+}
+.pricing-subtitulo{
+    padding: 5%;
+    font-size: 20px;
+}
+.boton {
+    margin: 0% -7%;
+}
+.boton-a{
+    position: relative;
+    transform: translateY(40px);
+}
+#footer {
+    padding: 5%;
+    text-align: center;
+    font-size: 20px;
+    background-color:#dd4933 ;
+    margin-bottom: -21px;
+
 }
