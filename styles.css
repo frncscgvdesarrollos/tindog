@@ -176,3 +176,25 @@ h2 {
     margin-bottom: -21px;
 
 }
+
+@media (max-width: 1028px) {
+    #features {
+        transform: translateY(0%);
+    }
+    #title {
+        height: 140vh;
+        text-align: center;
+        font-size: 20px;
+    }
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }    
+}
+@MEDIA (max-width:626px) {
+    .boton-a{
+        position: relative;
+        transform: translateY(0px);
+    }
+
+}
